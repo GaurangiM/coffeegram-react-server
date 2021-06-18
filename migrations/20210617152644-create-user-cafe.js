@@ -13,11 +13,14 @@ module.exports = {
         allowNull: false
       },
       rating: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.FLOAT,
         allowNull: false
       },
       visitDate: {
         type: Sequelize.DATE
+      },
+      cafeImage: {
+        type: Sequelize.STRING
       },
       createdAt: {
         allowNull: false,
