@@ -9,17 +9,16 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       postCode: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false
       },
       houseNumber: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.STRING,
         allowNull: false,
         unique: true
       },
       houseNumberExt: {
-        type: Sequelize.INTEGER,
-        allowNull: false
+        type: Sequelize.STRING,
       },
       streetName: {
         type: Sequelize.STRING,
