@@ -15,8 +15,9 @@ module.exports = (sequelize, DataTypes) => {
   };
   user_cafe.init({
     review: { type: DataTypes.TEXT, allowNull: false},
-    rating: { type: DataTypes.INTEGER, allowNull: false},
-    visitDate: DataTypes.DATE
+    rating: { type: DataTypes.FLOAT, allowNull: false},
+    visitDate: DataTypes.DATE,
+    cafeImage: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'user_cafe',
