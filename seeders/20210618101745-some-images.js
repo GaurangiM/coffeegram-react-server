@@ -5,18 +5,6 @@ module.exports = {
     await queryInterface.bulkInsert('images', 
     [
       {
-        image: 'https://www.iloveheadroom.com/wp-content/uploads/2018/02/Cafe_de_Jaren_118s-1024x683.jpg',
-        createdAt: new Date(),
-         updatedAt: new Date(),
-         cafeId: 2 
-      },
-      {
-        image: 'https://images.myguide-cdn.com/amsterdam/companies/cafe-de-jaren/large/cafe-de-jaren-350766.jpg',
-        createdAt: new Date(),
-         updatedAt: new Date(),
-         cafeId: 2 
-      },
-      {
         image: 'https://pull-littlewanderbook.netdna-ssl.com/wp-content/uploads/2015/03/CoffeeCoconuts91.jpg',
         createdAt: new Date(),
          updatedAt: new Date(),
@@ -27,6 +15,18 @@ module.exports = {
         createdAt: new Date(),
          updatedAt: new Date(),
          cafeId: 1
+      },
+      {
+        image: 'https://www.iloveheadroom.com/wp-content/uploads/2018/02/Cafe_de_Jaren_118s-1024x683.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 2 
+      },
+      {
+        image: 'https://images.myguide-cdn.com/amsterdam/companies/cafe-de-jaren/large/cafe-de-jaren-350766.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 2 
       },
       {
         image: 'https://backtoblackcoffee.nl/wp-content/uploads/2019/06/StancePhotography_BacktoBlack-70-1.jpg',

@@ -49,8 +49,63 @@ async function getAllUserCafes() {
   }
 }
 
+//Query relations
+async function getCafesWithImages() {
+  try {
+    const allCafesWithImages = await Cafe.findAll(
+      {
+        include: [Image]
+      }
+    );
+    return allCafesWithImages.map(cafe => cafe.toJSON());
+  } catch (e) {
+    console.log(e);
+  }
+}
+
+async function getCafeWithAddress(id) {
+  try {
+    const cafeWithAddress = await Cafe.findByPk(id,
+      {
+        include: [Address]
+      }
+    );
+    return cafeWithAddress.toJSON();
+  } catch (e) {
+    console.log(e);
+  }
+}
+
+async function getCafeWithAddressImage(id) {
+  try {
+    const cafeWithAddressImage = await Cafe.findByPk(id,
+      {
+        include: [Address, Image]
+      }
+    );
+    return cafeWithAddressImage.toJSON();
+  } catch (e) {
+    console.log(e);
+  }
+}
+
+async function getCafesVisitedByUser(id) {
+  try {
+    const cafe = await UserCafe.findAll({
+      where: {userId: id}
+    });
+    return cafe.map(cafe=> cafe.toJSON());
+  } catch (e) {
+    console.log(e);
+  }
+}
+
 //getAllUsers().then(users => console.log(users));
 //getAllCafes().then(cafes=> console.log(cafes)) 
 //getAllImages().then(images=> console.log(images))
 //getAllAddresses().then(addresses=> console.log(addresses))
-getAllUserCafes().then(userCafes=> console.log(userCafes))
+//getAllUserCafes().then(userCafes=> console.log(userCafes))
+//getCafesWithImages().then(res=> console.log(res[0]))
+//getCafeWithAddress(6).then(res=> console.log(res))
+//getCafeWithAddressImage(3).then(res=> console.log(res))
+getCafesVisitedByUser(1).then(res=> console.log(res))
