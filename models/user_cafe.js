@@ -11,6 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      
     }
   };
   user_cafe.init({
@@ -20,7 +21,7 @@ module.exports = (sequelize, DataTypes) => {
     cafeImage: DataTypes.STRING
   }, {
     sequelize,
-    modelName: 'user_cafe',
+    modelName: "user_cafe",
   });
   return user_cafe;
 };
