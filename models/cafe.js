@@ -11,6 +11,9 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      cafe.hasMany(models.image)
+      cafe.belongsTo(models.address)
+      cafe.hasMany(models.user_cafe)
     }
   };
   cafe.init({
@@ -21,6 +24,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'cafe',
+    tableName: 'cafes'
   });
   return cafe;
 };
