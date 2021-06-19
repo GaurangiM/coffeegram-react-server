@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       // define association here
       cafe.hasMany(models.image)
-      cafe.hasOne(models.address)
+      cafe.belongsTo(models.address)
       cafe.hasMany(models.user_cafe)
     }
   };
