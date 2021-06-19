@@ -13,7 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
       cafe.hasMany(models.image)
       cafe.hasOne(models.address)
-      
+      cafe.hasMany(models.user_cafe)
     }
   };
   cafe.init({
