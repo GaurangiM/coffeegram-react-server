@@ -40,7 +40,17 @@ async function getAllAddresses() {
   }
 }
 
+async function getAllUserCafes() {
+  try {
+    const allUserCafes = await UserCafe.findAll();
+    return allUserCafes.map(userCafe => userCafe.toJSON());
+  } catch (e) {
+    console.log(e);
+  }
+}
+
 //getAllUsers().then(users => console.log(users));
 //getAllCafes().then(cafes=> console.log(cafes)) 
 //getAllImages().then(images=> console.log(images))
-getAllAddresses().then(addresses=> console.log(addresses))
+//getAllAddresses().then(addresses=> console.log(addresses))
+getAllUserCafes().then(userCafes=> console.log(userCafes))
