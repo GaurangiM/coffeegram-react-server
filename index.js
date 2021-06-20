@@ -1,9 +1,12 @@
 const express = require("express");
 const loggerMiddleWare = require("morgan");
 const corsMiddleWare = require("cors");
+
+const authMiddleWare = require("./auth/middleware.js");
 const { PORT } = require("./config/constants");
 const authRouter = require("./routers/auth");
-const authMiddleWare = require("./auth/middleware.js");
+const cafeRouter = require("./routers/cafe")
+
 
 const app = express();
 
@@ -68,6 +71,7 @@ if (process.env.DELAY) {
 }
 
 app.use("/", authRouter);
+app.use("/cafes", cafeRouter)
 
 app.get("/", (req, res) => {
   res.send("Hi from express");

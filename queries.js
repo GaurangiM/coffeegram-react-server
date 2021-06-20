@@ -3,6 +3,7 @@ const Cafe = require("./models").cafe
 const Image = require("./models").image
 const Address = require("./models").address
 const UserCafe = require("./models").user_cafe
+const axios = require('axios')
 
 async function getAllUsers() {
   try {
@@ -100,6 +101,19 @@ async function getCafesVisitedByUser(id) {
   }
 }
 
+async function getCafeWithGivenName(name) {
+  const encodedName = encodeURI(name)
+  console.log(encodedName)
+  try {
+    const cafe = await axios.get(`http://localhost:4000/cafes/${encodedName}`)
+    console.log(cafe.data)
+  }catch(e) {
+    console.log(e)
+  }
+  
+  
+}
+
 //getAllUsers().then(users => console.log(users));
 //getAllCafes().then(cafes=> console.log(cafes)) 
 //getAllImages().then(images=> console.log(images))
@@ -108,4 +122,5 @@ async function getCafesVisitedByUser(id) {
 //getCafesWithImages().then(res=> console.log(res[0]))
 //getCafeWithAddress(6).then(res=> console.log(res))
 //getCafeWithAddressImage(3).then(res=> console.log(res))
-getCafesVisitedByUser(1).then(res=> console.log(res))
+//getCafesVisitedByUser(1).then(res=> console.log(res))
+getCafeWithGivenName("Blue Amsterdam")
