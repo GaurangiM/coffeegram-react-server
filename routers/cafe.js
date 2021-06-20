@@ -49,5 +49,16 @@ router.get("/:cafeName", async(req, res, next)=> {
   }
 })
 
+router.get("/images/all", async(req, res, next)=> {
+  try {
+    const cafes = await Cafe.findAll()
+    const allPosterImages = await cafes.map(cafe=> cafe.imageUrl)
+    res.status(200).send({message: 'All cafe poster images fetched', allPosterImages})
+  }catch(e) {
+    console.log(e.message)
+    next(e)
+  }
+})
+
 
 module.exports = router
