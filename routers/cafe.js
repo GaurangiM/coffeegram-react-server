@@ -6,7 +6,9 @@ const router = new Router();
 
 router.get("/", async(req, res, next)=> {
   try {
-    const allCafes = await Cafe.findAll();
+    const allCafes = await Cafe.findAll({
+      include: [Address]
+    });
     return res.status(200).send({message: 'Cafes fetched', allCafes });
   }catch(e) {
     console.log(e.message)
