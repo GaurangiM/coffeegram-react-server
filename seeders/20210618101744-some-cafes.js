@@ -24,7 +24,7 @@ module.exports = {
       },
      {
       name: 'Back to Black',
-      description: "Back to Black is founded by Noortje Vlutters and Inge Bulthuis. “We’ve known eachother since the age of 12 and started Back to Black in 2014. In 2015 we started to roast our own coffee and in 2016 we started to sell the coffee online in the webshop and to wholesale clients. In 2017 the homemade pies and cakes were so popular that we started our own little bakery on the first floor in the roastery. In 2017 we opened another coffeebar and in 2020 we opened our very own training center where we offer the well known Specialty Coffee Association training on different levels and the additional exams to get the international acknowledged certificates. The last years from 2014 on where quite a journey and we are super excited about what the next years will bring.”",
+      description: "Back to Black is founded by Noortje Vlutters and Inge Bulthuis.We’ve known eachother since the age of 12 and started Back to Black in 2014. In 2015 we started to roast our own coffee and in 2016 we started to sell the coffee online in the webshop and to wholesale clients. In 2017 the homemade pies and cakes were so popular that we started our own little bakery on the first floor in the roastery. In 2017 we opened another coffeebar and in 2020 we opened our very own training center where we offer the well known Specialty Coffee Association training on different levels and the additional exams to get the international acknowledged certificates. The last years from 2014 on where quite a journey and we are super excited about what the next years will bring.",
       contact: "+31(0)020-3377588",
       imageUrl: "https://www.culy.nl/wp-content/uploads/2016/07/Back-to-black-amsterdam7.jpg",
       createdAt: new Date(),
@@ -76,6 +76,51 @@ module.exports = {
     updatedAt: new Date(),
     addressId: 9
   },
+  {
+    name: "Cafe ’t Neutje",
+    description: "Since 1981, a friendly cafe spot with more than 50 special beers in the Neude, the heart of Utrecht. From student to Senior: the whole Utrecht feels at home at Cafe ’t Neutje",
+    contact: "+31 30 232 2458",
+    imageUrl: "https://media-cdn.tripadvisor.com/media/photo-p/16/50/cc/b9/cafe-t-neutje.jpg",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    addressId: 10
+    },
+    {
+    name: "De Ontdekking",
+    description: "We converted the building in 2013 and kept the travel theme in the menu and the interior. De Ontdekking offers a cozy, informal environment, in which every corner has its own atmosphere",
+    contact: "+31 30 751 47 19",
+    imageUrl: "https://media.insiders.nl/uba/files/image/de-ontdekking_244468997.jpeg",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    addressId: 11
+    },
+    {
+    name: "Lucas",
+    description: "Lucas is there for everyone who consciously opts for taste and attention to the product. It is a place where you come to yourself and be inspired. This in a very contemporary, creative and cool ambiance!",
+    contact: "+31 30 737 05 67",
+    imageUrl: "https://www.feelgoodbyfood.nl/wp-content/uploads/2016/12/IMG_2927-1-e1482263217712.jpg",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    addressId: 12
+    },
+    {
+    name: "Anne & Max Utrecht",
+    description: "For breakfast, coffee, lunch, high tea or afternoon drinks. We work with fresh, authentic, mostly organic products. We are a living room in the city, a place where you are at home every moment of the day and feel welcome.",
+    contact: "+31 30 760 1118",
+    imageUrl: "https://studiegerelateerdebijbaan.nl/sites/default/files/styles/medium/public/2020-03/Anne%2526Max.jpg?itok=KzmnacHr",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    addressId: 13,
+    },
+    {
+    name: "'t Koffieboontje",
+    description: "We are available for you daily from 08:00 to 17:30. Whether you want to chat, relax or read a book. In the cozy window seat in the hanging chair with a view of the canal. Make yourself at home!",
+    contact: "+31 30 877 8787",
+    imageUrl: "https://media-cdn.tripadvisor.com/media/photo-s/1a/fb/7c/83/welcome-t-koffieboontje.jpg",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    addressId: 14,
+    }
   
     ], {});
     

@@ -6,7 +6,9 @@ const router = new Router();
 
 router.get("/", async(req, res, next)=> {
   try {
-    const allCafes = await Cafe.findAll();
+    const allCafes = await Cafe.findAll({
+      include: [Address]
+    });
     return res.status(200).send({message: 'Cafes fetched', allCafes });
   }catch(e) {
     console.log(e.message)
@@ -14,17 +16,19 @@ router.get("/", async(req, res, next)=> {
   }
 })
 
-router.get("/city/:city", async(req, res, next)=> {
+router.get("/city/:cityName", async(req, res, next)=> {
   try {
-    const city = req.params.city;
+    const cityName = req.params.cityName;
     const cafesInGivenCity = await Address.findAll({
-      include: [Cafe],
-      where: {city}
+      include: [Cafe]
     })
-    if(cafesInGivenCity.length === 0) {
+    
+    const result = cafesInGivenCity.filter(cafe=> cafe.city.toLowerCase() === cityName.toLowerCase())
+    console.log(result)
+    if(result.length === 0) {
       res.status(400).send(`No cafes in ${city}`)
     } else {
-      return res.status(200).send({message: 'Cafes in given city fetched', cafesInGivenCity });
+      return res.status(200).send({message: 'Cafes in given city fetched', result });
     }
     
   }catch(e) {

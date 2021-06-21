@@ -114,6 +114,19 @@ async function getCafeWithGivenName(name) {
   
 }
 
+async function getCafesInGivenCity(cityName) {
+  console.log(cityName)
+  try {
+    const cafe = await Cafe.findAll({
+      include: [Address],
+    });
+    console.log(cafe)
+    return cafe.filter(cafe=> cafe.address.city === cityName);
+  } catch (e) {
+    console.log(e);
+  }
+}
+
 //getAllUsers().then(users => console.log(users));
 //getAllCafes().then(cafes=> console.log(cafes)) 
 //getAllImages().then(images=> console.log(images))
@@ -123,4 +136,5 @@ async function getCafeWithGivenName(name) {
 //getCafeWithAddress(6).then(res=> console.log(res))
 //getCafeWithAddressImage(3).then(res=> console.log(res))
 //getCafesVisitedByUser(1).then(res=> console.log(res))
-getCafeWithGivenName("Blue Amsterdam")
+//getCafeWithGivenName("Blue Amsterdam")
+getCafesInGivenCity("Utrecht").then(res=> console.log(res.length))
