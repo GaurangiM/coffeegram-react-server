@@ -1,13 +1,14 @@
 const { Router } = require("express");
 const Cafe = require("../models").cafe;
 const Address = require("../models").address;
+const Image = require("../models").image
 
 const router = new Router();
 
 router.get("/", async(req, res, next)=> {
   try {
     const allCafes = await Cafe.findAll({
-      include: [Address]
+      include: [Address, Image]
     });
     return res.status(200).send({message: 'Cafes fetched', allCafes });
   }catch(e) {
