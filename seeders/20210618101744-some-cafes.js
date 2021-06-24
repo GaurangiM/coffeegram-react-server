@@ -68,6 +68,15 @@ module.exports = {
       addressId: 7
   },
   {
+    name: 'Coffee & Bites',
+    description: "More than just 'coffee'.Although the sound of the name may suggest otherwise, Coffee & Bites' service goes far beyond serving all kinds of coffee to take away. Since its opening in June 2008 (Coffee to Walk), the cozy, informal establishment has become a hotspot of the Plantage-Weesperbuurt, where many neighbors, students, tourists and 'casual'passers-by like to settle down.Real coffee, the smell of freshly baked rolls and croissants, the morning newspaper, a magazine or a good conversation. The ultimate feeling and the warm, relaxed atmosphere is the ideal start to the day. Welcome at Coffee & Bites. Now almost 13 years later.Prepare Coffee & Bites for the evenings. For the time being, only for collection and delivery, but in the not too distant future the doors will remain open until the evening. For those who want to settle down for a drink and a bite after work, Coffee & Bites is the perfect location in the Plantage neighborhood.Celebrate or discuss something? Coffee & Bites is also very suitable for holding various activities. More info? Feel free to walk in!",
+    contact: "+31 (0) 20-4287968",
+    imageUrl: "https://media-cdn.tripadvisor.com/media/photo-s/1b/11/c7/71/welcome-to-coffee-bites.jpg",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    addressId: 8
+  },
+  {
     name: 'Blue Amsterdam',
     description: "Blue Amsterdam is a café and restaurant with an amazing 360-degree view of the city. Located in the top of a futuristic glass tower in the middle of the city centre, Blue offers a view of Amsterdam you have never seen before. You can see a lot of Amsterdam’s highlights: Rijksmuseum, Munttoren, Westerkerk, Central Station, Royal Palace and the flower market. Take the glass elevator to the third floor and have a look around. Every trip to Amsterdam should start at Blue!",
     contact: "+31 20 427 39 01",
@@ -107,7 +116,7 @@ module.exports = {
     name: "Anne & Max Utrecht",
     description: "For breakfast, coffee, lunch, high tea or afternoon drinks. We work with fresh, authentic, mostly organic products. We are a living room in the city, a place where you are at home every moment of the day and feel welcome.",
     contact: "+31 30 760 1118",
-    imageUrl: "https://studiegerelateerdebijbaan.nl/sites/default/files/styles/medium/public/2020-03/Anne%2526Max.jpg?itok=KzmnacHr",
+    imageUrl: "https://www.annemax.nl/wp-content/uploads/2019/04/AnneMax-Utrecht-003-1000x0-c-default.jpg",
     createdAt: new Date(),
     updatedAt: new Date(),
     addressId: 13,

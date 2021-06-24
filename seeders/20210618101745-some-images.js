@@ -89,16 +89,88 @@ module.exports = {
          cafeId: 7
       },
       {
-        image: 'https://www.entreemagazine.nl/sites/default/files/styles/voorpagina-uitgelicht/public/afbeeldingen/nieuws/Blue%20Amsterdam%20interieur%20boven%20.jpeg?itok=mu3hYjy_',
+        image: 'https://media-cdn.tripadvisor.com/media/photo-s/0f/0a/05/10/coffee-bites-cafe-grill.jpg',
         createdAt: new Date(),
          updatedAt: new Date(),
          cafeId: 8
       },
       {
-        image: 'https://www.hakwood.com/images/gallery/28768/1575X1050/270117MDF17.jpg',
+        image: 'https://media-cdn.tripadvisor.com/media/photo-s/10/13/32/c6/photo0jpg.jpg',
         createdAt: new Date(),
          updatedAt: new Date(),
          cafeId: 8
+      },
+      {
+        image: 'https://www.entreemagazine.nl/sites/default/files/styles/voorpagina-uitgelicht/public/afbeeldingen/nieuws/Blue%20Amsterdam%20interieur%20boven%20.jpeg?itok=mu3hYjy_',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 9
+      },
+      {
+        image: 'https://www.hakwood.com/images/gallery/28768/1575X1050/270117MDF17.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 9
+      },
+      {
+        image: 'https://media.indebuurt.nl/utrecht/2019/09/07174858/neutje-utrecht-4.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 10
+      },
+      {
+        image: 'https://media.indebuurt.nl/utrecht/2019/09/07174850/neutje-utrecht-6.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 10
+      },
+      {
+        image: 'http://www.deontdekkingutrecht.nl/wp-content/uploads/2015/03/MG_2316.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 11
+      },
+      {
+        image: 'https://hotspotjes.nl/wp-content/uploads/2017/11/De-Ontdekking-2-min.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 11
+      },
+      {
+        image: 'https://lucasutrecht.nl/wp-content/uploads/2020/08/Fotos-Lucas-22-04-20-bewerkt-3-scaled.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 12
+      },
+      {
+        image: 'https://htspt.co/media/sights/321-image.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 12
+      },
+      {
+        image: 'https://www.leuketip.nl/images/db/5ff08c20ce3e8e67c99f4a47/large.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 13
+      },
+      {
+        image: 'https://denationalefranchisegids.nl/wp-content/uploads/2014/11/Anne-Max.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 13
+      },
+      {
+        image: 'https://tkoffieboontje.nl/wp-content/uploads/MarcoReeuwijk_20170914_KoffieboontjeOudeGracht_10019.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 14
+      },
+      {
+        image: 'https://mk0europeancoffmnbn2.kinstacdn.com/wp-content/uploads/city-guides/cafes/1376/tKoffiebontje-Utrecht-web.jpg',
+        createdAt: new Date(),
+         updatedAt: new Date(),
+         cafeId: 14
       }
     ], {});
     

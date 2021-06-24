@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
   };
   address.init({
     postCode: { type: DataTypes.STRING, allowNull: false},
-    houseNumber: { type: DataTypes.INTEGER, allowNull: false, unique: true},
+    houseNumber: { type: DataTypes.INTEGER, allowNull: false},
     houseNumberExt: { type: DataTypes.STRING},
     streetName: { type: DataTypes.STRING, allowNull: false},
     city: { type: DataTypes.STRING, allowNull: false},
