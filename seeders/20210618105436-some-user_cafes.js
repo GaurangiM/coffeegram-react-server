@@ -113,7 +113,7 @@ module.exports = {
         rating: 4.6,
         createdAt: new Date(),
         updatedAt: new Date(),
-        userId: 3,
+        userId: 4,
         cafeId: 7
       },
       {
@@ -129,7 +129,7 @@ module.exports = {
         rating: 4.7,
         createdAt: new Date(),
         updatedAt: new Date(),
-        userId: 6,
+        userId: 2,
         cafeId: 9
       },
       {
@@ -177,7 +177,7 @@ module.exports = {
         rating: 3.8,
         createdAt: new Date(),
         updatedAt: new Date(),
-        userId: 2,
+        userId: 1,
         cafeId: 11
       },
       {
@@ -193,7 +193,7 @@ module.exports = {
         rating: 4,
         createdAt: new Date(),
         updatedAt: new Date(),
-        userId: 5,
+        userId: 4,
         cafeId: 12
       },
       {
