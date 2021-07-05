@@ -171,6 +171,222 @@ module.exports = {
         createdAt: new Date(),
          updatedAt: new Date(),
          cafeId: 14
+      },
+      {
+        image: 'https://static.wixstatic.com/media/b31ac7_1feaf30d5e9c48a197e8ae1d98664c07~mv2.jpg/v1/fill/w_1024,h_1024,al_c,q_85,usm_0.66_1.00_0.01/b31ac7_1feaf30d5e9c48a197e8ae1d98664c07~mv2.webp',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 15
+      },
+      {
+        image: 'https://supplier.meetingselect.com/upload/ImageBig/deae6930-4966-4ccc-b6f0-ee77b74a126f.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 15
+      },
+      {
+        image: 'https://www.maastrichtuniversity.nl/sites/default/files/styles/carousel_big/public/carrousel/19687975973_9573d6caaa_o.jpg?itok=ZDJ2vYi_',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 16
+      },
+      {
+        image: 'https://media-cdn.tripadvisor.com/media/photo-s/0c/1f/67/2d/het-interieur-van-alley.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 16
+      },
+      {
+        image: 'https://www.vanattekum.com/wp-content/uploads/2018/07/coffeelovers-ssc-coworking.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 17
+      },
+      {
+        image: 'https://m.maastricht.stappen-shoppen.nl/uploads/image/5dc977b8b6c7be9944578e23-large.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 17
+      },
+      {
+        image: 'https://fixedgearcoffee.com/wp-content/uploads/2020/02/FixedGearCoffeeMaastricht_11-02-2020_LeicaM9_SMQ-62-of-107-1024x681.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 18
+      },
+      {
+        image: 'https://s3.eu-central-1.amazonaws.com/storage.knwu.nl/storage/2018/11/25110112/Foto4-1024x682.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 18
+      },
+      {
+        image: 'https://www.koffietje.nl/wp-content/uploads/2020/07/fixed-gear-coffee-maastricht-62-1920x1282.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 18
+      },
+      {
+        image: 'https://m.maastricht.stappen-shoppen.nl/uploads/image/5ab3c0362a5ab03082216aba-large.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 19
+      },
+      {
+        image: 'https://www.dezwaanmaastricht.nl/uimg/zwaan/b17474_img3f.jpg?d=27&w=500',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 19
+      },
+      {
+        image: 'https://www.koffietje.nl/wp-content/uploads/2021/02/IMG_20201111_124248-1920x2560.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 20
+      },
+      {
+        image: 'https://weownrotterdam.nl/app/uploads/2020/04/Rotterdam_roast_coffee_04.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 20
+      },
+      {
+        image: 'https://mk0europeancoffmnbn2.kinstacdn.com/wp-content/uploads/city-guides/cafes/1566/joy-espresso-rotterdam-social-media-1.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 21
+      },
+      {
+        image: 'https://joycoffee.nl/wp-content/uploads/2019/03/Joy-ontbijt-met-croissant-en-koffie-of-thee.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 21
+      },
+      {
+        image: 'https://www.debuik.nl/fp/jeQDw0hRRp63YutmIZWG/convert?&w=837&h=500&fit=crop',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 21
+      },
+      {
+        image: 'http://urbanmoms.nl/wp-content/uploads/2015/08/Hopper-11-4.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 22
+      },
+      {
+        image: 'https://thecoffeevine.files.wordpress.com/2013/04/img_4598.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 22
+      },
+      {
+        image: "https://media-cdn.tripadvisor.com/media/photo-s/03/ef/c7/f5/hopper.jpg",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 22
+      },
+      {
+        image: 'https://caffebooon.nl/wp-content/themes/yootheme/cache/booon-9b2d3ade.jpeg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 23
+      },
+      {
+        image: 'https://caffebooon.nl/wp-content/themes/yootheme/cache/Superfood-latte-c78c363c.png',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 23
+      },
+      {
+        image: 'https://mk0europeancoffmnbn2.kinstacdn.com/wp-content/uploads/city-guides/cafes/2381/booon-rotterdam-social-media-2.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 23
+      },
+      {
+        image: 'https://media-cdn.tripadvisor.com/media/photo-s/19/f9/39/99/perfect-portions.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 24
+      },
+      {
+        image: 'https://d11s8ysge2pxse.cloudfront.net/app/uploads/2020/10/man-met-bril-hofbogen.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 24
+      },
+      {
+        image: 'https://images0.persgroep.net/rcs/ndkRpngsjzOLIWBwZDTpH2XpqwA/diocontent/65661445/_crop/0/161/1580/893/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 24
+      },
+      {
+        image: 'https://www.easyforsure.com/efsadminnew/images/vendorbusinessgallery/282_2_1518684244.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 25
+      },
+      {
+        image: 'https://cdn.beanhunter.com/img/766e349786c3b1ee9f8bb58eceba4e5a.jpg?width=328.125&height=328.125',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 25
+      },
+      {
+        image: 'https://mk0europeancoffmnbn2.kinstacdn.com/wp-content/uploads/city-guides/cafes/1990/single-estate-coffee-roasters-the-hague-netherlands-2-wendelien-barista.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 26
+      },
+      {
+        image: 'https://www.koffietcacao.nl/wp-content/uploads/2019/10/Untitled-design-29.png',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 26
+      },
+      {
+        image: 'https://www.timetomomo.com/wp-content/uploads/2019/06/mijn_3_laatste_ontdekkingen_in_Den_Haag_designroom_plenty_vincenzos.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 27
+      },
+      {
+        image: 'https://images.happycow.net/venues/1024/15/74/hcmp157457_745486.jpeg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 27
+      },
+      {
+        image: 'https://www.girlonthemove.nl/wp-content/uploads/2020/07/leukste-koffietentjes-in-den-haag-plenty-piet-heijnstraat-koffie-coffee.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 27
+      },
+      {
+        image: 'https://10619-2.s.cdn12.com/rests/original/102_506424754.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 28
+      },
+      {
+        image: 'https://i2.wp.com/thehaguehiphotspots.nl/wp-content/uploads/2017/09/Kaafi-4.jpg?fit=750%2C450&ssl=1',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 28
+      },
+      {
+        image: 'https://i2.wp.com/www.foodaholics.nl/wp-content/uploads/2016/11/filtro-1.jpg?resize=800%2C600',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 29
+      },
+      {
+        image: 'https://media-cdn.tripadvisor.com/media/photo-s/17/61/6b/ba/photo1jpg.jpg',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        cafeId: 29
       }
     ], {});
     

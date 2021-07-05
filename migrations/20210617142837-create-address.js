@@ -15,13 +15,12 @@ module.exports = {
       houseNumber: {
         type: Sequelize.STRING,
         allowNull: false,
-        unique: true
       },
       houseNumberExt: {
         type: Sequelize.STRING,
       },
       streetName: {
-        type: Sequelize.STRING,
+        type: Sequelize.TEXT,
         allowNull: false
       },
       city: {

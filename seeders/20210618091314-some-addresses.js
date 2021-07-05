@@ -106,8 +106,8 @@ module.exports = {
         longitude: 5.1185244,
         createdAt: new Date(),
         updatedAt: new Date(),
-        },
-        {
+      },
+      {
         houseNumber: 110,
         postCode: "3512AV",
         streetName: "Voorstraat",
@@ -116,8 +116,8 @@ module.exports = {
         longitude: 5.123210,
         createdAt: new Date(),
         updatedAt: new Date(),
-        },
-        {
+      },
+      {
         houseNumber: 23,
         postCode: "3512CS",
         streetName: "Wittevrouwenstraat",
@@ -126,8 +126,8 @@ module.exports = {
         longitude: 5.125480,
         createdAt: new Date(),
         updatedAt: new Date(),
-        },
-        {
+      },
+      {
         houseNumber: 4,
         postCode: "3511KW",
         streetName: "Donkeregaard",
@@ -136,8 +136,8 @@ module.exports = {
         longitude: 5.121010,
         createdAt: new Date(),
         updatedAt: new Date(),
-        },
-        {
+      },
+      {
         houseNumber: 92,
         postCode: "3511AV",
         streetName: "Oudegracht",
@@ -146,7 +146,167 @@ module.exports = {
         longitude: 5.116940,
         createdAt: new Date(),
         updatedAt: new Date(),
-        }
+      },
+      {
+        houseNumber: 1,
+        postCode: "6211 LL",
+        streetName: "Tongersestraat",
+        city: "Maastricht",
+        latitude: 50.84644,
+        longitude: 5.68752,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 15,
+        postCode: "6211 EL",
+        streetName: "Hoenderstraat",
+        city: "Maastricht",
+        latitude: 50.85116,
+        longitude: 5.69309,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 1,
+        postCode: "6211 CZ",
+        streetName: "Dominicanerkerkstraat",
+        city: "Maastricht",
+        latitude: 50.85012,
+        longitude: 5.68964,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 35,
+        postCode: "6211 HB",
+        streetName: "Bredestraat",
+        city: "Maastricht",
+        latitude: 50.8481,
+        longitude: 5.68991,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 68,
+        postCode: "6211 CL",
+        streetName: "Markt",
+        city: "Maastricht",
+        latitude: 50.85083,
+        longitude: 5.69138,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 21,
+        postCode: "3021 BV",
+        streetName: "Middellandplein",
+        city: "Rotterdam",
+        latitude: 51.9181,
+        longitude: 4.4578,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 493,
+        postCode: "3011 ZW",
+        streetName: "Groenendaal",
+        city: "Rotterdam",
+        latitude: 51.92124,
+        longitude: 4.49113,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 474,
+        postCode: "3035 KS",
+        streetName: "Zwaanshals",
+        city: "Rotterdam",
+        latitude: 51.93205,
+        longitude: 4.48561,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 31,
+        postCode: "3033 CG",
+        streetName: "Proveniersstraat",
+        city: "Rotterdam",
+        latitude: 51.92723,
+        longitude: 4.47274,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 70,
+        postCode: "3032 SN",
+        streetName: "Vijverhofstraat",
+        city: "Rotterdam",
+        latitude: 51.93044,
+        longitude: 4.47413,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 28,
+        postCode: "2511 CA",
+        streetName: "Turfmarkt",
+        city: "Den Haag",
+        latitude: 52.0783,
+        longitude: 4.31885,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 15,
+        postCode: "2518 CB",
+        streetName: "Piet Heinstraat",
+        city: "Den Haag",
+        latitude: 52.08255,
+        longitude: 4.30002,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 37,
+        postCode: "2518 CB",
+        streetName: "Piet Heinstraat",
+        city: "Den Haag",
+        latitude: 52.08235,
+        longitude: 4.29963,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 25,
+        postCode: "2513 CA",
+        streetName: "Prinsestraat",
+        city: "Den Haag",
+        latitude: 52.0787,
+        longitude: 4.30619,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 11,
+        postCode: "2513 AV",
+        streetName: "Papestraat",
+        city: "Den Haag",
+        latitude: 52.07917,
+        longitude: 4.30811,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        houseNumber: 1,
+        postCode: "1111",
+        streetName: "Test",
+        city: "Test",
+        latitude: 50.4,
+        longitude: 4.6,
+        createdAt: new Date(),
+        updatedAt: new Date()
+      } 
     ], {});
     
   },
