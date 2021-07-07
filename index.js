@@ -10,7 +10,7 @@ const userRouter = require("./routers/user")
 
 
 const app = express();
-
+app.use(corsMiddleWare());
 /**
  * morgan:
  *
@@ -49,7 +49,7 @@ app.use(bodyParserMiddleWare);
  *
  */
 
- app.use(corsMiddleWare());
+ 
 
  /**
  *
