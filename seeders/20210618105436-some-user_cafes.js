@@ -233,7 +233,7 @@ module.exports = {
         rating: 4.1,
         createdAt: new Date(),
         updatedAt: new Date(),
-        userId: 4,
+        userId: 3,
         cafeId: 15
       },
       {
@@ -457,7 +457,7 @@ module.exports = {
         rating: 4.5,
         createdAt: new Date(),
         updatedAt: new Date(),
-        userId: 3,
+        userId: 6,
         cafeId: 29
       },
       {
