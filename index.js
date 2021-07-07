@@ -6,6 +6,7 @@ const authMiddleWare = require("./auth/middleware.js");
 const { PORT } = require("./config/constants");
 const authRouter = require("./routers/auth");
 const cafeRouter = require("./routers/cafe")
+const userRouter = require("./routers/user")
 
 
 const app = express();
@@ -72,6 +73,7 @@ if (process.env.DELAY) {
 
 app.use("/", authRouter);
 app.use("/cafes", cafeRouter)
+app.use("/users", userRouter)
 
 app.get("/", (req, res) => {
   res.send("Hi from express");

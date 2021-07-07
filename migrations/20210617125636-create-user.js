@@ -32,6 +32,14 @@ module.exports = {
       updatedAt: {
         allowNull: false,
         type: Sequelize.DATE
+      },
+      avatar: {
+        type: Sequelize.STRING,
+        unique: true
+      },
+      bio: {
+        type: Sequelize.STRING,
+        unique: true
       }
     });
   },
